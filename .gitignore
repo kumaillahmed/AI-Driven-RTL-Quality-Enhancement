@@ -216,3 +216,23 @@ __marimo__/
 
 # Streamlit
 .streamlit/secrets.toml
+
+# ==========================================
+# Custom Additions: AI-Driven RTL Quality Enhancement
+# ==========================================
+
+#EDA Tools & RTL Logs
+#Ignores massive log files and dumps from tools like SpyGlass or Jasper
+*.rpt
+*.vcd
+*.fsdb
+*.jou
+*.pb
+#Note: *.log is already ignored under the "Django stuff" section above
+
+#Large ML Models
+#Ignores huge binary weights for machine learning classifiers
+*.pt
+*.pth
+*.h5
+*.pkl
