@@ -1,0 +1,4 @@
+message,severity,label
+Unused signal,WARNING,0
+Width mismatch,ERROR,1
+False positive rule,WARNING,0
