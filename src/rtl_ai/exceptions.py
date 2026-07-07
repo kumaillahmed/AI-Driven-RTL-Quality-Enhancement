@@ -1,0 +1,1 @@
+class RTLAIError(Exception): pass

@@ -1,0 +1,7 @@
+black
+ruff
+isort
+mypy
+pytest
+coverage
+pre-commit

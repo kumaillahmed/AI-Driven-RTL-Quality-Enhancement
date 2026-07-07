@@ -1,0 +1,10 @@
+fastapi
+uvicorn
+streamlit
+langchain
+faiss-cpu
+sentence-transformers
+transformers
+scikit-learn
+pandas
+numpy
