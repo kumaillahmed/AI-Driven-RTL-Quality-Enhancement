@@ -1,3 +1,3 @@
-# Assets
+# Dashboard Assets
 
-Store logos, screenshots, icons and dashboard images here.
+Place logos, screenshots, and CSS here.

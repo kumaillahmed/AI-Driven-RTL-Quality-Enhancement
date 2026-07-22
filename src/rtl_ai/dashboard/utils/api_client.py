@@ -1,4 +1,5 @@
-import requests
-
-def health(base_url='http://localhost:8000'):
-    return requests.get(f'{base_url}/health').json()
+def analyze_log(text):
+    return {
+        "summary": "Placeholder analysis",
+        "root_cause": "Placeholder root cause"
+    }
