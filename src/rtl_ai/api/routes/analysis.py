@@ -1,7 +1,11 @@
 from fastapi import APIRouter
-from ..models.requests import AnalysisRequest
-from ..models.responses import AnalysisResponse
-router=APIRouter(prefix='/analysis',tags=['analysis'])
-@router.post('/',response_model=AnalysisResponse)
+from rtl_ai.api.models.schemas import AnalysisRequest, AnalysisResponse
+
+router=APIRouter(prefix="/analysis",tags=["Analysis"])
+
+@router.post("/",response_model=AnalysisResponse)
 def analyze(req:AnalysisRequest):
- return AnalysisResponse(summary=f'Received issue: {req.issue}',recommendation='Connect parser, ML, RAG and LLM pipeline.')
+    return AnalysisResponse(
+        summary="Placeholder analysis",
+        root_cause="Placeholder root cause"
+    )
