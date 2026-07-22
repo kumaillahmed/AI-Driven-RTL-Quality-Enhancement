@@ -1,0 +1,5 @@
+severity,message,label
+HIGH,Unused signal,0
+LOW,False alarm,1
+MEDIUM,Missing synchronizer,0
+HIGH,Reset domain crossing,0
